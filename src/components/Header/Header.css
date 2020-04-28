@@ -1,0 +1,36 @@
+.Header {
+    /* padding: 2rem; */
+    
+}
+
+.carousel-inner {
+    height: max-content;    
+}
+
+.w-100 {
+    width: 100%!important;
+    height: -webkit-fill-available;
+}
+
+.carousel {
+    opacity: .4;
+}
+
+header {
+    z-index: 10;
+}
+
+.header_opening {
+    transform: translateY(-60vh);
+    margin-left: 2rem;
+}
+
+.header_opening--heading1,
+.header_opening--heading3 {
+    color: #ffffff;
+    font-family: 'Domine';
+    letter-spacing: .8rem;
+    text-transform: capitalize;
+    
+    font-family: 'Lobster', cursive;
+}

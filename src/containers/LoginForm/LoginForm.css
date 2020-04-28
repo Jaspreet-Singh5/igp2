@@ -1,0 +1,156 @@
+.LoginForm {
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70rem;
+    border: .4rem solid #008B38;
+    box-shadow: .9rem .3rem .6rem #43BF73;
+    border-radius: 2rem;
+}
+
+.Header-Login {
+    height: 10rem;
+    border-top-right-radius: 4.5rem;
+    border-top-left-radius: 4.5em;
+    background: linear-gradient(
+      to right, 
+      #008B38,
+      #43BF73
+      );
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Form-header {
+    text-align: center;
+    font-family: Domine;
+    font-size: 3.2rem;
+    font-weight: 800;
+    color: #ffffff;
+    padding-top: 1rem;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 80%; */
+
+    margin-top: 2rem!important;
+    margin-bottom: 2rem!important;
+    color: #43BF73!important    ;
+    width: 45rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.GoogleLogin {
+    background-color: #008B38;
+    height: 5.5rem;
+    width: 100%;
+    border: none;
+    font-family: Domine;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.GoogleLoginIcon {
+    background-image: url('/img/28@2x.png');
+    background-size: cover;
+    height: 4rem;
+    width: 4rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+.LoginOption {
+    font-family: Domine;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #43BF73!important;
+}
+
+.Form-section {
+    padding: 2rem;
+    width: 100%;
+}
+
+.Form-label {
+    font-family: Domine;
+    font-size: 1.6rem;
+    font-weight: bold;
+    display: block;
+}
+
+.Form-input {
+    border-radius: 1rem;
+    border: .2rem solid #008B38!important;
+    height: 5rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.Form-text {
+    font-family: Roboto!important;
+    font-size: 1.6rem;
+    width: 90%;
+    padding: 1rem;
+    margin-left: 1rem;
+    height: 80%;
+    border: none;
+    background-color: transparent;
+}
+
+.Form-element {
+    margin-top: 2rem;
+}
+
+
+.FormInputIcon {
+    height: 3rem;
+    width: 4rem;
+    margin-right: 1rem;
+    display: inline-block; 
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.FormInputIcon-1 {
+    background-image: url('/img/25@2x.png');
+}
+
+.FormInputIcon-2 {
+    background-image: url('/img/26@2x.png');
+}
+
+
+.FormInputIcon-3 {
+    background-image: url('/img/27@2x.png');
+    margin-top: 1rem;
+}
+
+.LoginButton {
+
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+}
+
+#GoogleLoginMain {
+    opacity: 1;
+}

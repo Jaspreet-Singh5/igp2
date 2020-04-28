@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Domine', serif;
+}
+
+body {
+  background-color: #BBFF9C;
+  padding: 3rem;
+}
+
+.static {
+  background-color: #FFFFFF;
+  border-radius: 2rem;
+  height: max-content;
+  padding: 2rem;
+}
+
+.navbar {
+  height: 15vh;
+}

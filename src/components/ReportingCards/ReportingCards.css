@@ -1,0 +1,367 @@
+.ReportingCards {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.reportingLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-row {
+    display: flex;
+    justify-content: space-evenly;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-row:not(:last-child) {
+    margin-bottom: 5rem;
+}
+
+.card-col {
+    width: 30%;
+    height: 20rem;
+    background-color: teal;
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 500!important;
+    border-radius: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-size: cover!important;
+    background-position: left!important;
+    
+    transition: ease-in-out .5s all;
+}
+
+.reportingLink,
+.reportingLink:link,
+.reportingLink:visited,
+.reportingCards:active {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.card-col:not(:last-child) {
+    margin-right: 2rem;
+}
+
+.card-col:hover {
+    background-color: #fff!important;
+}
+
+
+.card-col.card-1 {
+    background-color: #43BF73;
+    border: .1rem solid #43BF73;
+}
+
+.card-col.card-2 {
+    background-color: #2D804C;
+    border: .1rem solid #2D804C;
+}
+
+.card-col.card-3 {
+    background-color: #58FF97;
+    border: .1rem solid #58FF97;
+}
+
+.card-col.card-4 {
+    background-color: #164026;
+    border: .1rem solid #164026;
+}
+
+.card-col.card-5 {
+    background-color: #50E68A;
+    border: .1rem solid #50E68A;
+}
+
+.card-col.card-6 {
+    background-color: #43BF73;
+    border: .1rem solid #43BF73;
+}
+
+.card-col.card-7 {
+    background-color: #2D804C;
+    border: .1rem solid #2D804C;
+}
+
+.card-col.card-8 {
+    background-color: #58FF97;
+    border: .1rem solid #58FF97;
+}
+
+.card-col.card-9 {
+    background-color: #164026;
+    border: .1rem solid #164026;
+}
+
+.card-col.card-10 {
+    background-color: #50E68A;
+    border: .1rem solid #50E68A;
+}
+
+.card-col.card-11 {
+    background-color: #43BF73;
+    border: .1rem solid #43BF73;
+}
+
+.card-col.card-12 {
+    background-color: #2D804C;
+    border: .1rem solid #2D804C;
+}
+
+
+
+
+.serviceIcon {
+    height: auto;
+    width: 6rem;
+    fill: #fff;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.serviceIcon-1 {
+    background-image: url('/img/1.svg');
+}
+
+
+.serviceIcon-2 {
+    background-image: url('/img/2.svg');
+}
+
+.serviceIcon-3 {
+    background-image: url('/img/3.svg');
+}
+
+.serviceIcon-4 {
+    background-image: url('/img/4.svg');
+}
+
+.serviceIcon-5 {
+    background-image: url('/img/5.svg');
+}
+
+.serviceIcon-6 {
+    background-image: url('/img/6.svg');
+}
+
+.serviceIcon-7 {
+    background-image: url('/img/7.svg');
+}
+
+.serviceIcon-8 {
+    background-image: url('/img/8.svg');
+}
+
+.serviceIcon-9 {
+    background-image: url('/img/9.svg');
+}
+
+.serviceIcon-10 {
+    background-image: url('/img/10.svg');
+}
+
+.serviceIcon-11 {
+    background-image: url('/img/11.svg');
+}
+
+.serviceIcon-12 {
+    background-image: url('/img/12.svg');
+}
+
+
+
+
+.card-col.card-1:hover .serviceIcon-1 {
+    fill: #43BF73;
+}
+
+.card-col.card-1:hover .reportingLink {
+    color: #43BF73!important;
+}
+
+.card-col.card-2:hover .serviceIcon-2 {
+    fill: #2D804C;
+}
+
+.card-col.card-2:hover .reportingLink {
+    color: #2D804C!important;
+}
+
+.card-col.card-3:hover .serviceIcon-3 {
+    fill: #58FF97;
+}
+
+.card-col.card-3:hover .reportingLink {
+    color: #58FF97!important;
+}
+
+.card-col.card-4:hover .serviceIcon-4 {
+    fill: #164026;
+}
+
+.card-col.card-4:hover .reportingLink {
+    color: #164026!important;
+}
+
+.card-col.card-5:hover .serviceIcon-5 {
+    fill: #50E68A;
+}
+
+.card-col.card-5:hover .reportingLink {
+    color: #50E68A!important;
+}
+
+.card-col.card-6:hover .serviceIcon-6 {
+    fill: #43BF73;
+}
+
+.card-col.card-6:hover .reportingLink {
+    color: #43BF73!important;
+}
+
+.card-col.card-7:hover .serviceIcon-7 {
+    fill: #2D804C;
+}
+
+.card-col.card-7:hover .reportingLink {
+    color: #2D804C!important;
+}
+
+.card-col.card-8:hover .serviceIcon-8 {
+    fill: #58FF97;
+}
+
+.card-col.card-8:hover .reportingLink {
+    color: #58FF97!important;
+}
+
+.card-col.card-9:hover .serviceIcon-9 {
+    fill: #164026;
+}
+
+.card-col.card-9:hover .reportingLink {
+    color: #164026!important;
+}
+
+.card-col.card-10:hover .serviceIcon-10 {
+    fill: #50E68A;
+}
+
+.card-col.card-10:hover .reportingLink {
+    color: #50E68A!important;
+}
+
+.card-col.card-11:hover .serviceIcon-11 {
+    fill: #43BF73;
+}
+
+.card-col.card-11:hover .reportingLink {
+    color: #43BF73!important;
+}
+
+.card-col.card-12:hover .serviceIcon-12 {
+    fill: #2D804C;
+}
+
+.card-col.card-12:hover .reportingLink {
+    color: #2D804C!important;
+}
+
+
+
+
+
+.card-col span {
+    display: block;
+}
+
+.card-symbol {
+    position: relative;
+    right: -50%;
+    top: -70%;
+
+    height: 5rem;
+    width: 5rem;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.card-symbol.card-symbol-1 {
+    background-image: url('/img/2@2x.png');
+}
+
+.card-symbol.card-symbol-2 {
+    background-image: url('/img/4@2x.png');
+
+    top: -60%;
+}
+
+
+.card-symbol.card-symbol-3 {
+    background-image: url('/img/6@2x.png');
+}
+
+
+.card-symbol.card-symbol-4 {
+    background-image: url('/img/8@2x.png');
+
+    top: -60%;
+}
+
+.card-symbol.card-symbol-5 {
+    background-image: url('/img/10@2x.png');
+
+    top: -60%;
+}
+
+.card-symbol.card-symbol-6 {
+    background-image: url('/img/12@2x.png');
+}
+
+.card-symbol.card-symbol-7 {
+    background-image: url('/img/14@2x.png');
+    
+    top: -60%;
+}
+
+.card-symbol.card-symbol-8 {
+    background-image: url('/img/16@2x.png');
+    
+    top: -60%;
+}
+
+
+.card-symbol.card-symbol-9 {
+    background-image: url('/img/18@2x.png');
+}
+
+
+.card-symbol.card-symbol-10 {
+    background-image: url('/img/20@2x.png');
+}
+
+.card-symbol.card-symbol-11 {
+    background-image: url('/img/22@2x.png');
+
+    top: -60%;
+}
+
+.card-symbol.card-symbol-12 {
+    background-image: url('/img/24@2x.png');
+    
+    top: -60%;
+}
